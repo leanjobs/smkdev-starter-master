@@ -11,7 +11,7 @@ export default function MyBanner({
     return(
         <>
         <div className="w-full h-screen">
-            <Image src={imageUrl + image}/>
+            <Image alt="backdrop" className="rounded" src={imageUrl + image}/>
             <div className="bg-black/30 absolute top-0 left-0 w-full h-screen">
                 <div className="absolute top-0 w-full h-full flex flex-col justify-center text-white">
                     <p>hello</p>
